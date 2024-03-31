@@ -207,10 +207,7 @@ a {
     object-fit: cover;
 }
 
-.hero_img:first-child {
-    margin-right: -6px;
-    position: relative;
-}
+.hero_img:first
 
 .hero_img:last-child {
     width: 210px;

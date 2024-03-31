@@ -153,7 +153,6 @@ a {
 .hero {
     margin-top: 76px;
     display: flex;
-    align-items: center;
 }
 
 .hero_content {
@@ -197,23 +196,7 @@ a {
 .hero_images {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 
-.hero_img {
-    width: 330px;
-    height: 540px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.hero_img:first-child {
-    margin-right: -6px;
-    position: relative;
-}
-
-.hero_img:last-child {
-    width: 210px;
-    height: 410px;
-}
+.her
 
