@@ -30,21 +30,15 @@ a {
     --height: 60px;
     color:#fff;
     background:#2E80CE ;
-    height: var(--height);
+    height: 60px;
     padding: 0 20px;
     display: inline-block;
-    line-height: var(--height);
+    line-height: 60px;
     border-radius: 99px;
     min-width: 205px;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
-    border: 1px solid #2E80CE;
-}
-
-.btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
 }
 
 /* Header */
@@ -133,10 +127,5 @@ a {
     height: 6px;
     border-radius: 50%;
     background-color: #fff;
-}
-
-.action__signup {
-    --height: 44px;
-    min-width: 104px;
 }
 

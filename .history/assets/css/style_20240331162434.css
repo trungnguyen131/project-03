@@ -39,13 +39,9 @@ a {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
-    border: 1px solid #2E80CE;
 }
 
-.btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
-}
+.btn
 
 /* Header */
 .header {

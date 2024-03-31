@@ -26,27 +26,6 @@ a {
     margin: 0 auto;
 }
 
-.btn {
-    --height: 60px;
-    color:#fff;
-    background:#2E80CE ;
-    height: var(--height);
-    padding: 0 20px;
-    display: inline-block;
-    line-height: var(--height);
-    border-radius: 99px;
-    min-width: 205px;
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: 400;
-    border: 1px solid #2E80CE;
-}
-
-.btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
-}
-
 /* Header */
 .header {
     min-height: 100vh;
@@ -110,7 +89,7 @@ a {
 .navbar__list {
     display: flex;
 }
-.action__login,
+.action__btn,
 .navbar__link {
     padding:4px 21px;
     color:#C9D2DA;
@@ -133,10 +112,5 @@ a {
     height: 6px;
     border-radius: 50%;
     background-color: #fff;
-}
-
-.action__signup {
-    --height: 44px;
-    min-width: 104px;
 }
 
